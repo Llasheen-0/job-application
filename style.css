@@ -1,0 +1,65 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 2s;
+}
+#main{
+    background: #fffffff5;
+    margin: 20px 30%;
+    padding: 30px;
+    border-radius:40px;
+    border: solid;
+}
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+label {
+    color: #1c1212;
+    font-size: 18px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    color: rgb(230, 166, 166); 
+    font-weight: 800;
+    font-size: 25px;
+}
+input, select{
+    display: block;
+    border: 2px solid #d7c3c3a8;
+    border-style: ridge;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: rgb(231, 176, 176);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+input[type=file]::file-selector-button:hover {
+    background: #d08f8f;
+}
+button {
+    background-color: rgb(231, 176, 176);
+    color: #ffffff;
+    padding: 10px 30px ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float:right;
+}
+button:hover {
+    background: #d08f8f;
+}
